@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-02-reader/static/css/main.56c86007.chunk.css",
-    "main.js": "/goit-react-hw-02-reader/static/js/main.47b9064d.chunk.js",
-    "main.js.map": "/goit-react-hw-02-reader/static/js/main.47b9064d.chunk.js.map",
-    "runtime-main.js": "/goit-react-hw-02-reader/static/js/runtime-main.21ebc90b.js",
-    "runtime-main.js.map": "/goit-react-hw-02-reader/static/js/runtime-main.21ebc90b.js.map",
-    "static/js/2.d06d5f35.chunk.js": "/goit-react-hw-02-reader/static/js/2.d06d5f35.chunk.js",
-    "static/js/2.d06d5f35.chunk.js.map": "/goit-react-hw-02-reader/static/js/2.d06d5f35.chunk.js.map",
-    "index.html": "/goit-react-hw-02-reader/index.html",
-    "precache-manifest.aadaa7708236d47960465e0c2163afb6.js": "/goit-react-hw-02-reader/precache-manifest.aadaa7708236d47960465e0c2163afb6.js",
-    "service-worker.js": "/goit-react-hw-02-reader/service-worker.js",
-    "static/css/main.56c86007.chunk.css.map": "/goit-react-hw-02-reader/static/css/main.56c86007.chunk.css.map"
+    "main.css": "/goit-react-hw-04-reader/static/css/main.56c86007.chunk.css",
+    "main.js": "/goit-react-hw-04-reader/static/js/main.47b9064d.chunk.js",
+    "main.js.map": "/goit-react-hw-04-reader/static/js/main.47b9064d.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-04-reader/static/js/runtime-main.d8325540.js",
+    "runtime-main.js.map": "/goit-react-hw-04-reader/static/js/runtime-main.d8325540.js.map",
+    "static/js/2.d06d5f35.chunk.js": "/goit-react-hw-04-reader/static/js/2.d06d5f35.chunk.js",
+    "static/js/2.d06d5f35.chunk.js.map": "/goit-react-hw-04-reader/static/js/2.d06d5f35.chunk.js.map",
+    "index.html": "/goit-react-hw-04-reader/index.html",
+    "precache-manifest.2db530761993a2a53ddecffd55f41c65.js": "/goit-react-hw-04-reader/precache-manifest.2db530761993a2a53ddecffd55f41c65.js",
+    "service-worker.js": "/goit-react-hw-04-reader/service-worker.js",
+    "static/css/main.56c86007.chunk.css.map": "/goit-react-hw-04-reader/static/css/main.56c86007.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.21ebc90b.js",
+    "static/js/runtime-main.d8325540.js",
     "static/js/2.d06d5f35.chunk.js",
     "static/css/main.56c86007.chunk.css",
     "static/js/main.47b9064d.chunk.js"
