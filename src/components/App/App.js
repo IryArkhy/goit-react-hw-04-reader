@@ -16,7 +16,10 @@ const App = () => {
             component={props => <Reader {...props} items={publications} />}
           />
           <Route path="/">
-            <Redirect to="/reader" component={Reader} />
+            <Redirect
+              to="/reader"
+              component={props => <Reader {...props} items={publications} />}
+            />
           </Route>
           <Redirect
             to={{
