@@ -5,7 +5,6 @@ import publications from '../../publications.json';
 import '../../styles.css';
 
 const App = () => {
-  // return <Reader items={publications} />;
   return (
     <>
       <BrowserRouter>
