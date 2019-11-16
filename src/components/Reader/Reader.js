@@ -27,7 +27,7 @@ export default class Reader extends Component {
   };
 
   state = {
-    page: 0,
+    page: 1,
   };
 
   componentDidMount() {
@@ -77,8 +77,8 @@ export default class Reader extends Component {
   render() {
     const { page } = this.state;
     const { items } = this.props;
-    const isNextDisabled = page === publications.length - 1;
-    const isPrevDisabled = page === 0;
+    const isNextDisabled = page === publications.length;
+    const isPrevDisabled = page === 1;
     return (
       <div className={styles.reader}>
         <Controls
@@ -88,12 +88,12 @@ export default class Reader extends Component {
           isPrevDisabled={isPrevDisabled}
         />
         <Counter
-          currentPublication={page + 1}
+          currentPublication={page}
           numberOfPublications={items.length}
         />
         <Publication
-          currentPublicationNum={page + 1}
-          publication={items[page]}
+          currentPublicationNum={page}
+          publication={items[page - 1]}
         />
       </div>
     );
