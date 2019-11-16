@@ -15,6 +15,9 @@ const App = () => {
             /* eslint-disable-next-line */
             component={props => <Reader {...props} items={publications} />}
           />
+          <Route path="/">
+            <Redirect to="/reader" component={Reader} />
+          </Route>
           <Redirect
             to={{
               pathname: '/reader',
