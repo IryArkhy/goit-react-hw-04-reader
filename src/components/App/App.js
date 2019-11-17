@@ -12,7 +12,7 @@ const App = () => {
           <Route
             path="/reader"
             /* eslint-disable-next-line */
-            component={props => <Reader {...props} items={publications} />}
+            render={props => <Reader {...props} items={publications} />}
           />
           <Redirect
             to={{
